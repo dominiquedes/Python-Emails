@@ -8,7 +8,7 @@ html = input("Enter html email: \n")
 
 params = {
     "to": to,
-    "sender": "dominiquedesertb@gmail.com",
+    "sender": "your.email@gmail.com",
     "subject": subject,
     "msg_html": html, 
 }
