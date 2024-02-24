@@ -2,7 +2,7 @@ from simplegmail import Gmail
 from openai import OpenAI
 from simplegmail.query import construct_query
 
-API_KEY = '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'
+API_KEY = ''
 
 client = OpenAI(
     api_key=API_KEY,
