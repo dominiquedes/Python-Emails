@@ -45,7 +45,7 @@ def create_new_sheet(sheet_name):
     
     client = gspread.authorize(creds)
     
-    folder_id = '1v2XXofNYxk7ypPJ_KaOqzT3GA5wNpkNx'
+    folder_id = 'xxxxxxxxxxxxx'
     new_sheet = client.create(sheet_name, folder_id=folder_id)
     
     return new_sheet
